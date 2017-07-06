@@ -1,0 +1,7 @@
+{
+  "name": "@my-app/source",
+  "version": "0.0.1",
+  "dependencies": {
+    "@my-app/components": "file:./components"
+  }
+}

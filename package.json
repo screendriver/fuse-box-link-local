@@ -1,0 +1,18 @@
+{
+  "name": "fuse-box-link-local",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/screendriver/fuse-box-link-local.git",
+  "author": "Christian Rackerseder <git@echooff.de>",
+  "license": "MIT",
+  "scripts": {
+    "link": "linklocal -r src",
+    "build": "npm run link && node fuse.js"
+  },
+  "devDependencies": {
+    "fuse-box": "^2.2.0",
+    "linklocal": "^2.8.1",
+    "typescript": "^2.4.1",
+    "uglify-js": "^3.0.23"
+  }
+}
